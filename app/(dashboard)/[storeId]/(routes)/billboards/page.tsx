@@ -5,7 +5,7 @@ import prismadb from "@/lib/prismadb";
 import { BillboardClient } from "./components/billboard-client";
 import { BillboardColumn } from "./components/columns";
 
-const BillBoardsPage = async ({
+const BillboardsPage = async ({
   params,
 }: {
   params: {
@@ -36,4 +36,4 @@ const BillBoardsPage = async ({
   );
 };
 
-export default BillBoardsPage;
+export default BillboardsPage;
